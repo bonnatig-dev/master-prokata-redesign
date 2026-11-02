@@ -150,3 +150,9 @@ h1,h2{text-transform:uppercase;line-height:.95}.hero h1{line-height:.9;font-weig
 .step b{font-weight:300}.hero .price b{font-weight:400}
 
 .hero em,.phead em{color:#ff8a83}
+
+.word{overflow:hidden;max-width:100%;white-space:nowrap}
+.wt{display:flex;width:max-content;animation:wmq 40s linear infinite}
+.wg{display:flex;flex-shrink:0}.wi{padding-right:.35em}.wi i{font-style:normal;color:#ff8a83;padding-left:.35em;font-weight:300}
+@keyframes wmq{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.wt{animation:none}}
